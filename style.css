@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Header starts here */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8rem;
+    background-color: rgb(25, 25, 133);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+
+nav .burger {
+    position: absolute;
+    top: 2.9rem;
+    left: 4%;
+    color: #f4f5fb;
+    display: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.left i{
+    color: #f4f5fb;
+    margin-left: 0.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    vertical-align: auto;
+}
+nav .logo {
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding-bottom: 2.8rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0rem 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 33);
+    background-color: white;
+}
+
+nav .right {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+/* Header ends here */
+
+/* First Section starts here */
+
+main .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6rem 6rem;
+    max-width: 110rem;
+    height: auto;
+}
+
+.leftsection {
+    width: 64rem;
+    font-size: 3.95rem;
+    font-weight: 800;
+}
+
+.purple {
+    color: hsl(2, 100%, 50%);
+    position: relative;
+    z-index: 20;
+}
+
+#line-1 {
+    width: 55rem;
+    font-size: 3.75rem;
+}
+
+#line-2 {
+    font-size: 3.75rem;
+}
+
+#element {
+    font-size: 3.75rem;
+    color: hsl(2, 100%, 50%);
+}
+
+.rightsection {
+    width: 33rem;
+    padding-top: 4rem;
+}
+
+.rightsection img {
+    width: 80%;
+    margin-left: 5.5rem;
+}
+
+main hr {
+    border: 0rem;
+    height: 0.26rem;
+    background-color: rgb(177, 172, 172);
+    margin: 3rem 0rem;
+}
+
+/* First Section end here */
+
+/* Second Section starts here */
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+
+.secondsection h1 {
+    font-size: 3.95rem;
+    padding-bottom: 2rem;
+}
+
+.pst-videos {
+    display: flex;
+    margin: 3.4rem 0rem;
+    max-width: 90vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    padding: 1rem 1rem;
+}
+
+.box video {
+    position: relative;
+    width: 32rem;
+    outline: 0.12rem solid white;
+    border-radius: 0.7rem;
+    z-index: 20;
+    cursor: pointer;
+    margin: 0rem 1rem;
+}
+
+.box h4 {
+    margin: 1.4rem 0.1rem;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.box h4:hover {
+    color: rgba(255, 255, 0, 0.863);
+    text-decoration: underline;
+
+}
+
+/* Second section ends here */
+
+/* Third section starts here */
+
+.thirdsection {
+    display: flex;
+    margin: 2rem 1.5rem;
+    height: auto;
+}
+
+.thirdsection h1 {
+    font-size: 3.95rem;
+}
+
+.contact-img {
+    margin: 6rem 5rem;
+}
+
+.contact-img img {
+    width: 36rem;
+    margin-right: 21rem;
+}
+
+.form form {
+    padding-top: 2.4rem;
+}
+.honey{
+    display: none;
+}
+.form input,
+textarea {
+    width: 80%;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+    font-size: 1.5rem;
+}
+
+.submit {
+    width: 10rem;
+    padding: 0.8rem;
+    display: flex;
+    border-radius: 0.8rem;
+    color: rgb(0, 0, 33);
+    background-color: white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    outline: 0.1rem solid black;
+    justify-content: center;
+}
+
+.submit:hover {
+    width: 19%;
+    color: rgb(0, 0, 33);
+    background-color: white;
+    outline: 0.1rem solid white;
+    transform: translate(x);
+}
+
+/* Third section ends here */
+
+/* Fourth section starts here */
+
+.fourthsection {
+    display: flex;
+    max-width: 94vw;
+    margin: 2rem 1.5rem;
+    height: auto;
+}
+
+.fourthsection h1 {
+    font-size: 3.95rem;
+}
+
+.about-img {
+    margin: 4rem 3.3rem;
+}
+
+.about-img img {
+    width: 39rem;
+    margin-right: 17rem;
+    padding-top: 7rem;
+}
+
+.about .text {
+    padding-top: 2rem;
+}
+
+.text p {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+/* Fourth Section ends here */
+
+/* Footer section starts here */
+
+.footersection {
+    display: flex;
+    max-width: 72vw;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.footer-first {
+    font-size: 2.4rem;
+}
+
+.logo {
+    margin-top: 3.5rem;
+}
+
+.icons {
+    display: flex;
+    padding-top: 0.3rem;
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.icons a {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.footersection ul {
+    padding: 1rem 0.3rem;
+    font-size: 1.6rem;
+}
+
+.footersection ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersection ul li a:hover {
+    color: rgb(206, 193, 193);
+    text-decoration: underline;
+}
+
+.footer-second h3 {
+    font-size: 2.1rem;
+}
+
+.footer-third h3 {
+    font-size: 2.18rem;
+}
+
+.hrlink {
+    border: 0rem;
+    background-color: white;
+    margin: 0.3rem 0rem;
+    width: 13.2rem;
+}
+
+.footer-rights {
+    text-align: center;
+    background-color: rgb(10, 7, 61);
+    color: rgb(252, 251, 251);
+    font-size: 1.45rem;
+    padding: 0.4rem;
+}
